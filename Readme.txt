@@ -20,6 +20,7 @@ $ git status
 3.Adicionando e Commitando Repositório
 $ git add Readme.txt
 $ git commit -m "Add Readme.txt"
+$ git push origin master
 
 4.Logs
 $ git log
@@ -34,3 +35,8 @@ $ git diff
 $ git reset HEAD Readme.txt
 $ git checkout Readme.txt
 
+7.Branch
+$ git branch
+$ git checkout -b brach_name_to_create
+$ git checkout branch_name_to_go
+$ git branch -D branch_name_to_delete
