@@ -19,6 +19,7 @@ $ git status
 3.Adicionando & Commitando Repositório
 $ vim Readme.txt
 $ git add Readme.txt
+$ git add -A
 $ git commit -m "Add Readme.txt"
 $ git show commit_hash
 $ git push origin master
